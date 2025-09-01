@@ -398,593 +398,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Battery_Management:MCP73831-2-MC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP73831-2-MC"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
-				(at -3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in DFN-8 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery charger lithium"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DFN*3x2mm*P0.5mm*EP1.7x1.4mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP73831-2-MC_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP73831-2-MC_1_1"
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "PROG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(hide yes)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "V_{BAT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "V_{BAT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "STAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CMS-16098A-SP:CMS-16098A-SP"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at -3.8149 8.9014 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CMS-16098A-SP"
-				(at -3.8252 -11.4755 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CMS-16098A-SP:CUI_CMS-16098A-SP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, Mylar Cone"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Same Sky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "CUI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "1.52 USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CMS-16098A-SP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "AVAILABILITY" "Warning"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, PEEK Cone, Speaker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CMS-16098A-SP_0_0"
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 1.905 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.175) (xy 1.905 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -3.175) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -1.9116 1.2744 0)
-					(effects
-						(font
-							(size 1.7841 1.7841)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "-"
-					(at -1.9061 -3.1768 0)
-					(effects
-						(font
-							(size 1.779 1.779)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -3092,6 +2505,611 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Imports:CMS-16098A-SP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at -3.8149 8.9014 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CMS-16098A-SP"
+				(at -3.8252 -11.4755 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CMS-16098A-SP:CUI_CMS-16098A-SP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, Mylar Cone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "CUI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "1.52 USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CMS-16098A-SP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Warning"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, PEEK Cone, Speaker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CMS-16098A-SP_0_0"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.175) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -1.9116 1.2744 0)
+					(effects
+						(font
+							(size 1.7841 1.7841)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -1.9061 -3.1768 0)
+					(effects
+						(font
+							(size 1.779 1.779)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Imports:MCP73831-2-MC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP73831-2-MC"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+				(at -3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in DFN-8 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery charger lithium"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DFN*3x2mm*P0.5mm*EP1.7x1.4mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP73831-2-MC_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP73831-2-MC_1_1"
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 7.62 270)
+					(length 2.54)
+					(name "Thermal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "V_{BAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "V_{BAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6478,6 +6496,12 @@
 		(uuid "63fc846f-084c-4363-b117-e825c1ebd59b")
 	)
 	(junction
+		(at 127 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "689b0a43-b25e-4153-9d04-677764035029")
+	)
+	(junction
 		(at 33.02 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6626,12 +6650,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0210c56-0997-40f5-98a1-a48178d7f301")
-	)
-	(junction
-		(at 127 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f838ab48-9cc6-48b6-a34f-8fe6fce0a954")
 	)
 	(junction
 		(at 113.03 125.73)
@@ -6941,6 +6959,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 20.32) (xy 163.83 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199dac68-7dfc-4935-b1f3-fae893bf5a4c")
+	)
+	(wire
+		(pts
 			(xy 53.34 180.34) (xy 54.61 180.34)
 		)
 		(stroke
@@ -7141,6 +7169,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 147.32) (xy 134.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348cb66e-06c0-47a1-9054-37f2b57de4ef")
+	)
+	(wire
+		(pts
 			(xy 252.73 39.37) (xy 252.73 44.45)
 		)
 		(stroke
@@ -7148,6 +7186,16 @@
 			(type default)
 		)
 		(uuid "34cff9b6-0c22-43ff-ad78-2cfb00a0d677")
+	)
+	(wire
+		(pts
+			(xy 163.83 16.51) (xy 158.75 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34db09cb-d490-4922-b73c-db37b6daaa6f")
 	)
 	(wire
 		(pts
@@ -7671,6 +7719,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 147.32) (xy 134.62 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7311233d-c253-4e70-822d-5a9738845b3b")
+	)
+	(wire
+		(pts
 			(xy 172.72 62.23) (xy 171.45 62.23)
 		)
 		(stroke
@@ -8131,16 +8189,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 147.32) (xy 133.35 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e544782-f509-49b3-8ecb-22ecce79bae3")
-	)
-	(wire
-		(pts
 			(xy 54.61 180.34) (xy 54.61 177.8)
 		)
 		(stroke
@@ -8271,16 +8319,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 147.32) (xy 133.35 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0667c17-1d36-44bd-aa26-45aeaab1e252")
-	)
-	(wire
-		(pts
 			(xy 33.02 29.21) (xy 36.83 29.21)
 		)
 		(stroke
@@ -8378,6 +8416,16 @@
 			(type default)
 		)
 		(uuid "b67d6cf6-fb22-405a-af6b-5bea2938fdf6")
+	)
+	(wire
+		(pts
+			(xy 158.75 16.51) (xy 158.75 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b717c8d5-2386-447f-8217-5bef383168a7")
 	)
 	(wire
 		(pts
@@ -8911,6 +8959,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 142.24) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e185952d-cba1-4138-839d-147f7119fc80")
+	)
+	(wire
+		(pts
 			(xy 203.2 40.64) (xy 218.44 40.64)
 		)
 		(stroke
@@ -9018,16 +9076,6 @@
 			(type default)
 		)
 		(uuid "ef014069-4aa6-4cd7-9447-d0267ba48533")
-	)
-	(wire
-		(pts
-			(xy 127 142.24) (xy 135.89 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61a61f7-b8c3-4f26-af17-43be8172220a")
 	)
 	(wire
 		(pts
@@ -9289,16 +9337,6 @@
 		)
 		(uuid "54bb253f-a020-4c06-9d5a-acc47eebf896")
 	)
-	(label "BOOT"
-		(at 58.42 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "552c6e6b-6f98-43fe-b333-5039b8f66ed3")
-	)
 	(label "RXD"
 		(at 45.72 165.1 180)
 		(effects
@@ -9308,16 +9346,6 @@
 			(justify right bottom)
 		)
 		(uuid "582f02f8-2191-48cf-a087-44250d07d253")
-	)
-	(label "BOOT"
-		(at 143.51 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "588f62e1-b7f3-462f-a81b-7f8cfc93125b")
 	)
 	(label "D+"
 		(at 123.19 76.2 180)
@@ -9911,7 +9939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.2752 129.54 0)
 			(effects
 				(font
@@ -10224,7 +10252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 47.9552 129.54 0)
 			(effects
 				(font
@@ -10332,6 +10360,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Imports:MCP73831-2-MC")
+		(at 167.64 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a0f05d8-591a-4105-8a6f-69e689d53338")
+		(property "Reference" "U3"
+			(at 177.546 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP73831-2-MC"
+			(at 177.546 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
+			(at 168.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in DFN-8 package"
+			(at 167.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7fef3bb5-ecca-417d-815d-c4b9b6547703")
+		)
+		(pin "7"
+			(uuid "d014394a-680a-477d-9a8f-6f3b7a57d4f7")
+		)
+		(pin "9"
+			(uuid "023ff2e1-5b8c-481b-9c89-f092f36aac9b")
+		)
+		(pin "8"
+			(uuid "f434d6a7-bca4-4020-868e-6749ce78b3cf")
+		)
+		(pin "1"
+			(uuid "8122d6f2-6ec2-4010-b84b-582e48b1b829")
+		)
+		(pin "2"
+			(uuid "02c8c143-f74e-4ca9-888a-e126216bc0f3")
+		)
+		(pin "6"
+			(uuid "8564c878-a2db-48a1-84d7-8e380842009f")
+		)
+		(pin "4"
+			(uuid "2414d818-51ec-4239-9eb0-0f8a9b20a630")
+		)
+		(pin "5"
+			(uuid "54c69638-b6f6-494a-80dd-fb8d5b52d4b8")
+		)
+		(instances
+			(project ""
+				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 163.83 128.27 0)
 		(unit 1)
@@ -10422,7 +10540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 63.1952 0)
 			(effects
 				(font
@@ -10489,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 170.18 39.0652 0)
 			(effects
 				(font
@@ -10623,7 +10741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.1152 129.54 0)
 			(effects
 				(font
@@ -10693,7 +10811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 204.1652 39.37 0)
 			(effects
 				(font
@@ -10762,7 +10880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.376 33.274 90)
 			(effects
 				(font
@@ -10831,7 +10949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.406 40.894 90)
 			(effects
 				(font
@@ -11264,7 +11382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 174.244 43.18 90)
 			(effects
 				(font
@@ -11901,7 +12019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 151.13 0)
 			(effects
 				(font
@@ -11970,7 +12088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 31.75 0)
 			(effects
 				(font
@@ -12234,7 +12352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 28.194 48.514 90)
 			(effects
 				(font
@@ -12544,7 +12662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 104.4448 127 0)
 			(effects
 				(font
@@ -12779,6 +12897,73 @@
 			(project "SmartwatchProject"
 				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58614537-57aa-4d97-9a78-774a4f77f512")
+		(property "Reference" "#PWR055"
+			(at 134.62 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ee8f92-e627-44ff-a7e1-bceeb41db820")
+		)
+		(instances
+			(project "SmartwatchProject"
+				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -13022,7 +13207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 151.13 0)
 			(effects
 				(font
@@ -13158,7 +13343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 126.0348 0)
 			(effects
 				(font
@@ -13228,7 +13413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 112.0648 127 0)
 			(effects
 				(font
@@ -13298,7 +13483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.516 66.294 90)
 			(effects
 				(font
@@ -13472,196 +13657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CMS-16098A-SP:CMS-16098A-SP")
-		(at 72.39 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6de60361-8931-4aab-8b0c-2e78324d741a")
-		(property "Reference" "LS1"
-			(at 72.39 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMS-16098A-SP"
-			(at 62.484 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CMS-16098A-SP:CUI_CMS-16098A-SP"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Same Sky"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, Mylar Cone"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "CUI"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "1.52 USD"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=eda"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=snap"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CMS-16098A-SP"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Warning"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, PEEK Cone, Speaker"
-			(at 72.39 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "N"
-			(uuid "7547269a-7964-4525-b85c-3c02cc4e7d4b")
-		)
-		(pin "P"
-			(uuid "070ccbc4-6a47-4171-b75b-72110d5d2fc0")
-		)
-		(instances
-			(project ""
-				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
-					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 50.8 0)
 		(unit 1)
@@ -13819,7 +13814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.59 185.1152 0)
 			(effects
 				(font
@@ -13954,7 +13949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.996 33.274 90)
 			(effects
 				(font
@@ -14087,7 +14082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 34.29 75.2348 0)
 			(effects
 				(font
@@ -14221,7 +14216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.324 161.544 90)
 			(effects
 				(font
@@ -14289,7 +14284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM13B-GHS-TB_LF__SN_:JST_SM13B-GHS-TB_LF__SN_"
+		(property "Footprint" "Imports_Global:JST_SM13B-GHS-TB_LF__SN_"
 			(at 260.35 29.21 0)
 			(effects
 				(font
@@ -14651,7 +14646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -14719,7 +14714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.744 164.084 90)
 			(effects
 				(font
@@ -14786,7 +14781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 28.194 43.434 90)
 			(effects
 				(font
@@ -14923,7 +14918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.496 37.084 90)
 			(effects
 				(font
@@ -14960,6 +14955,76 @@
 			(project ""
 				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 139.7 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "953dffb7-dd4d-4644-bc3c-5a7df7d95f72")
+		(property "Reference" "AE1"
+			(at 148.59 145.4151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMCA31-2R450G-S1F-T3"
+			(at 148.59 142.8751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Imports_Global:XDCR_AMCA31-2R450G-S1F-T3"
+			(at 144.145 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.145 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4778bcbc-78fc-4c24-8bb9-a66dc7b53d4d")
+		)
+		(pin "2"
+			(uuid "c97a750c-3c76-4385-9970-05348bb85122")
+		)
+		(instances
+			(project ""
+				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -15057,7 +15122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.744 176.784 90)
 			(effects
 				(font
@@ -15257,7 +15322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.744 174.244 90)
 			(effects
 				(font
@@ -15327,7 +15392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.9 115.8748 0)
 			(effects
 				(font
@@ -15395,7 +15460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.744 166.624 90)
 			(effects
 				(font
@@ -15530,7 +15595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.59 174.9552 0)
 			(effects
 				(font
@@ -15751,76 +15816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Chip")
-		(at 138.43 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7725557-c198-47ab-a098-778bc0777776")
-		(property "Reference" "AE1"
-			(at 147.32 144.1449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna_Chip"
-			(at 147.32 146.6849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.875 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.875 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic chip antenna with pin for PCB trace"
-			(at 138.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "605ab783-cd03-4c57-a0d0-4ffce5a4abe9")
-		)
-		(pin "1"
-			(uuid "71cef911-9eab-4be5-9980-e47ce985a885")
-		)
-		(instances
-			(project ""
-				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 49.53 180.34 90)
 		(unit 1)
@@ -15846,7 +15841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 49.53 180.34 0)
 			(effects
 				(font
@@ -15915,7 +15910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 17.4752 27.94 0)
 			(effects
 				(font
@@ -16180,7 +16175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 108.2548 0)
 			(effects
 				(font
@@ -16290,6 +16285,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 158.75 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6cbb525-77b4-43c5-a535-d5340cb6ccbd")
+		(property "Reference" "#PWR01"
+			(at 158.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0543f4-1fde-4281-a5dd-136ab518a153")
+		)
+		(instances
+			(project "SmartwatchProject"
+				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 115.57 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16380,7 +16440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 62.23 115.57 0)
 			(effects
 				(font
@@ -16449,7 +16509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.616 33.274 90)
 			(effects
 				(font
@@ -16650,7 +16710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 33.02 179.07 0)
 			(effects
 				(font
@@ -16718,7 +16778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.744 171.704 90)
 			(effects
 				(font
@@ -16755,6 +16815,187 @@
 			(project "SmartwatchProject"
 				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Imports:CMS-16098A-SP")
+		(at 72.39 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db02b46f-3fcc-4439-a5bc-0ca8d8beac7a")
+		(property "Reference" "LS1"
+			(at 63.5 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CMS-16098A-SP"
+			(at 63.5 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Imports_Global:CUI_CMS-16098A-SP"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, Mylar Cone"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "CUI"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.52 USD"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=eda"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMS-16098A-SP/Same+Sky/view-part/?ref=snap"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CMS-16098A-SP"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Warning"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "16 x 9 mm, Rectangular Frame , 0.8 W, 8 Ohm, Neodymium Magnet, PEEK Cone, Speaker"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "a50f7c4f-6038-42ce-abda-325c10d8fd64")
+		)
+		(pin "P"
+			(uuid "de6c712c-714b-4a19-bc21-a955f2973b54")
+		)
+		(instances
+			(project ""
+				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -16984,7 +17225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.586 25.654 90)
 			(effects
 				(font
@@ -17119,7 +17360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 23.8252 27.94 0)
 			(effects
 				(font
@@ -17156,72 +17397,6 @@
 			(project ""
 				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2e5d575-acb8-4434-b462-0e8567f412ee")
-		(property "Reference" "#PWR01"
-			(at 133.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1fb6ff1-98f4-4df7-81df-48bd1f187586")
-		)
-		(instances
-			(project "SmartwatchProject"
-				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -17319,7 +17494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 121.92 142.24 0)
 			(effects
 				(font
@@ -17595,7 +17770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -17795,7 +17970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 32.004 38.354 90)
 			(effects
 				(font
@@ -17832,95 +18007,6 @@
 			(project ""
 				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery_Management:MCP73831-2-MC")
-		(at 167.64 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fad35ef6-4255-4ed6-9a03-07623cafea0a")
-		(property "Reference" "U9"
-			(at 169.7833 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP73831-2-MC"
-			(at 169.672 20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
-			(at 168.91 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
-			(at 163.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in DFN-8 package"
-			(at 167.64 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "def785cf-5cc8-4c36-bbd7-a9b89be054cf")
-		)
-		(pin "8"
-			(uuid "b6716c9d-6d4a-420e-8bea-9f9247c3df4e")
-		)
-		(pin "7"
-			(uuid "17a4941b-5a21-49d7-83e0-ffca82a26448")
-		)
-		(pin "2"
-			(uuid "b664ee47-1544-4dcc-8531-6dc15796d407")
-		)
-		(pin "1"
-			(uuid "cd00334e-6099-4828-a2aa-02e1899d2ca1")
-		)
-		(pin "6"
-			(uuid "22f2c72f-56c6-4e97-8ad9-f36b8b695e2b")
-		)
-		(pin "3"
-			(uuid "89abd336-4e7a-4e3d-a270-d6992884dec3")
-		)
-		(pin "5"
-			(uuid "2dfdee60-9c40-43c8-8635-e4baae5c0709")
-		)
-		(instances
-			(project ""
-				(path "/aee82ddd-e348-4a52-a827-b5e6afe97fdc"
-					(reference "U9")
 					(unit 1)
 				)
 			)
