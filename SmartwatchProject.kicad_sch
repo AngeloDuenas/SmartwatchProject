@@ -9217,16 +9217,6 @@
 		)
 		(uuid "25b78ccf-7619-49f2-9d3b-8a335d64c113")
 	)
-	(label "LRCLK"
-		(at 58.42 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b752e29-aa61-41f7-ab95-b25ba74b3f75")
-	)
 	(label "SCL"
 		(at 156.21 72.39 180)
 		(effects
@@ -9266,6 +9256,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d4151af-1508-41c5-91aa-ba034e01f18e")
+	)
+	(label "DIN"
+		(at 58.42 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40148150-75c0-426f-bdf8-b0849e4386a3")
 	)
 	(label "CS"
 		(at 116.84 170.18 0)
@@ -9357,16 +9357,6 @@
 		)
 		(uuid "5f52bd71-a92a-40dc-b14b-a65273bebc1a")
 	)
-	(label "BCLK"
-		(at 58.42 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64370d0d-1668-470d-b94f-d67fa385228d")
-	)
 	(label "D-"
 		(at 153.67 31.75 180)
 		(effects
@@ -9457,16 +9447,6 @@
 		)
 		(uuid "819e1524-9d5a-4088-b51e-bff61116fdc8")
 	)
-	(label "SDA"
-		(at 58.42 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "84685973-0645-4927-9c09-161244513895")
-	)
 	(label "USB5V"
 		(at 167.64 16.51 0)
 		(effects
@@ -9507,7 +9487,7 @@
 		)
 		(uuid "a6b37b9e-efce-47ce-9069-c3829a268cda")
 	)
-	(label "SCL"
+	(label "DC"
 		(at 58.42 157.48 180)
 		(effects
 			(font
@@ -9515,7 +9495,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "aac650a6-acd6-4329-954c-9e2f4da632b6")
+		(uuid "aa5f2eea-dadb-4bff-8d54-3b02558653ad")
 	)
 	(label "RST"
 		(at 110.49 147.32 180)
@@ -9537,6 +9517,16 @@
 		)
 		(uuid "b43e1e59-ee02-44a8-b983-247c14bde5d3")
 	)
+	(label "SDA"
+		(at 58.42 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbe25715-1029-4933-a39c-40f04b08fd78")
+	)
 	(label "D-"
 		(at 123.19 78.74 180)
 		(effects
@@ -9547,6 +9537,26 @@
 		)
 		(uuid "bc385f00-9a9b-4df0-9816-e2bbf09e3e91")
 	)
+	(label "BCLK"
+		(at 58.42 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3101b74-ed24-49b1-82f0-b5b86416aa62")
+	)
+	(label "Display_CS"
+		(at 58.42 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c74eeeb0-46cc-46cc-86fe-0c2063c0b3aa")
+	)
 	(label "SPIHD"
 		(at 116.84 165.1 0)
 		(effects
@@ -9556,26 +9566,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf562ea8-05c9-4efc-800e-d08b218eae9c")
-	)
-	(label "DIN"
-		(at 58.42 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d041659f-10d5-42e3-be5e-5bf1735e30f1")
-	)
-	(label "DC"
-		(at 58.42 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d7188afc-85d6-4d10-8828-a538b5d4db9d")
 	)
 	(label "RST"
 		(at 143.51 88.9 0)
@@ -9607,6 +9597,16 @@
 		)
 		(uuid "decdd4f1-ae9c-43f1-a68b-013c8988eac3")
 	)
+	(label "LRCLK"
+		(at 58.42 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e261ac99-8061-4f7b-ac36-cd81bb92bcdc")
+	)
 	(label "TXD"
 		(at 143.51 68.58 0)
 		(effects
@@ -9627,6 +9627,16 @@
 		)
 		(uuid "e7d6fd93-b813-48f5-b36a-273ec9a5ba6b")
 	)
+	(label "SCL"
+		(at 58.42 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e93a44b1-feab-4196-89e4-de4261b4f041")
+	)
 	(label "SDA"
 		(at 156.21 74.93 180)
 		(effects
@@ -9637,7 +9647,7 @@
 		)
 		(uuid "ee731b4c-7191-47db-8e5a-767004ceaa9b")
 	)
-	(label "CS"
+	(label "Display_CS"
 		(at 255.27 44.45 90)
 		(effects
 			(font
